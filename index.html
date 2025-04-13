@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Social</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background-image: url(imagens/fundo-madeira.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #telefone{
+            background-image: url(imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+            height: 100vh;
+        }
+        iframe{
+            position: relative;
+            top:12% ;
+            width: 267px ;
+            height: 471px;
+            display: block;
+            margin: auto;
+        }
+        img{
+            border-radius: 500px;
+            width: 50px;
+            display: block;
+            padding-bottom: 5px;
+        }
+        div{
+            position: relative;
+            left: 94%;
+            width: 50px;
+            transform: translate(0%, -290%);
+            
+        }
+        a{
+            width: 50px;
+            display: block;
+        }
+        main{
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="telefone">
+            <iframe name="tela" src="home.html" frameborder="0"></iframe>
+        </section id="redes">
+            <div>
+                <a target="tela" href="home.html"><img src="imagens/logo-home.jpg" alt=""></a>
+                <a target="tela" href="youtube.html"><img src="imagens/logo-youtube.jpg" alt=""></a>
+                <a target="tela" href="insta.html"><img src="imagens/logo-instagram.jpg" alt=""></a>
+                <a target="tela" href="github.html"><img src="imagens/logo-github.jpg" alt=""></a>
+            </div>
+    </main>
+</body>
+</html>
